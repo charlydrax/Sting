@@ -4,5 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-image: ;
+    background: url("../img/background_yellow2.png") ;
+    font-family: "Jersey 25";
+    font-weight:600;
+}
+
+
+ul{
+    list-style: none;
 }
