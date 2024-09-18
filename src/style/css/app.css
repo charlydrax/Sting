@@ -1,0 +1,15 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("../img/background_yellow2.png") ;
+    font-family: "Jersey 25";
+    font-weight:600;
+}
+
+
+ul{
+    list-style: none;
+}
