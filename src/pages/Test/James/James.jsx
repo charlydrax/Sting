@@ -1,6 +1,11 @@
+import InfoJeux from "../../../components/InfoJeux/InfoJeux"
+
 function James (){
     return (
-        <p>Page test de James</p>
+        <>
+            <InfoJeux idGame={1} />
+        </>
+        
     )
 }
 export default James
