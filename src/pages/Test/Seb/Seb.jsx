@@ -1,6 +1,12 @@
+import Footer from './Footer';
 function Seb (){
+
     return (
-        <p>Page test de Seb</p>
+        <div>
+            <p>Page test de Seb</p>
+            <Footer />
+        </div>
+
     )
 }
 export default Seb
