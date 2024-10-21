@@ -1,6 +1,11 @@
+import HomeTop from "../../../components/homeTop/HomeTop"
+
 function Charly (){
     return (
-        <p>Page test de Charly</p>
+        <>
+            <HomeTop />
+            
+        </>
     )
 }
 export default Charly

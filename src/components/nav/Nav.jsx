@@ -75,7 +75,7 @@ export default function Nav(){
 
     return(
         <>
-            <ContainerNav>
+            {/* <ContainerNav>
                 <Span>
 
                     <ContainerImage to="/">
@@ -97,7 +97,7 @@ export default function Nav(){
                 <Button to="/login">
                     Connnectez-vous
                 </Button>
-            </ContainerNav>
+            </ContainerNav> */}
         </>
 
     )
