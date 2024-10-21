@@ -1,7 +1,8 @@
 import styled from "styled-components"
+import colors from "../../colors"
 
 const Barre = styled.div`
-    background : #DF2B2B;
+    background : ${colors.colorError};
     width:52px;
     height:148px;
     border-radius:6px;
