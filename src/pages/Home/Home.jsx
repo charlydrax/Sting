@@ -12,6 +12,7 @@ const Barre = styled.div`
     border-radius:6px;
     margin-right:30px;
 `
+
 export default function Home(){
     return(
         <ContainerHome>
