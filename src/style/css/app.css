@@ -5,8 +5,17 @@
 }
 body{
     background: url("../img/background_yellow2.png") ;
+    /* font-weight:800; */
+}
+p,a{
+    
+    font-size: clamp(25px,1vw,10px);
+    padding: calc(30px +1vmin) 10px;
+}
+h1{
     font-family: "Jersey 25";
-    font-weight:600;
+    font-size: clamp(30px,8vw,80px);
+    padding: calc(30px +1vmin) 10px;
 }
 
 
