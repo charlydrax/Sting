@@ -30,12 +30,13 @@ const LinkMail = styled.div`
 const MailEmploye = styled(Link)`
     color: white;
     text-decoration: none;
+    font-size: 15px;
 `
 const LegalMention = styled.p`
     color: white;
     text-align: center;
     padding: 20px;
-   
+   font-size: 20px;
 `
 const Stick = styled.hr`
     margin-inline: 10%;
