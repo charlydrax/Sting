@@ -5,39 +5,71 @@ import  logoSting  from "../../style/img/logo-sting.png"
 
 const FooterContainer = styled.footer`
     background: ${colors.colorFooter};
-    width: 100%;
+    width: 100vw;
+    padding: 20px;
+    margin-top: 520px;
 `
 const ContentLink = styled.div`
     display: grid;
-    grid-template-rows: 1fr 0.5fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-template-columns: 1fr;
     gap: 20px;
 
     img{
-        margin: 20px;
+        margin: auto;
+    }
+
+    @media screen and (min-width:981px){
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img{
+            width:100px;
+            margin: 20px;
+        }
     }
 `
 const ContentSocial = styled.div`
     display: flex;
     justify-content: space-around;
     grid-column: 1/3;
+
+    @media screen and (min-width:981px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:20px;
+    }
 `
 const LinkMail = styled.div`
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
-    margin:20px
+    text-align: center;
+
+    @media screen and (min-width:981px){
+        text-align: start;
+    }
 `
 const MailEmploye = styled(Link)`
     color: white;
     text-decoration: none;
     font-size: 7px;
     margin-block:10px;
+
+    @media screen and (min-width:981px){
+        font-size: 15px;
+    }
 `
 const LegalMention = styled.p`
     color: white;
     text-align: center;
     padding: 20px;
    font-size: 10px;
+
+    @media screen and (min-width:981px){
+        font-size: 15px;
+    }
 `
 const Stick = styled.hr`
     margin-inline: 10%;
@@ -45,6 +77,9 @@ const Stick = styled.hr`
 `
 const SocialLink = styled(Link)`
     width: 30px;
+    @media screen and (min-width:981px){
+        width: 50px;
+    }
 `
 
 function Footer (){
