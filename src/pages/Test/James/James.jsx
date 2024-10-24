@@ -1,9 +1,12 @@
+import { useParams } from "react-router-dom";
 import InfoJeux from "../../../components/InfoJeux/InfoJeux"
 
 function James (){
+    const { id } = useParams();
+    // console.log(id)
     return (
         <>
-            <InfoJeux idGame={1} />
+            <InfoJeux idpage={id} />
         </>
         
     )

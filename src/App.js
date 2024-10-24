@@ -20,7 +20,7 @@ export default function App() {
             <Route path='*' element={<Error />} />
             <Route path='/page-test-charly' element={<Charly />} />
             <Route path='/page-test-seb' element={<Seb />} />
-            <Route path='/page-test-james' element={<James />} />
+            <Route path='/page-test-james/:id' element={<James />} />
         </Routes>
         <Footer />
         </>
