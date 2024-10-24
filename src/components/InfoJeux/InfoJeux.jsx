@@ -22,7 +22,6 @@ const Main = styled.main`
     @media (min-width: 768px) {
         flex-direction: row;
     }
-
 `
 const ContainerDroite = styled.div`
     color:white;
@@ -30,14 +29,19 @@ const ContainerDroite = styled.div`
     flex-direction:column;
     gap:20px;
     padding:15px;
-    border-right: solid 1px white;
-    margin: 10px 0;
+    border-bottom: solid 1px white;
+    margin: 10px 10px;
     & p{
         font-size:11px;
         line-height: 1.5;
     }
     & h1{
         text-align:center;
+    }
+    @media (min-width: 768px) {
+        border-right: solid 1px white;
+        border-bottom: none;
+
     }
 
 `
