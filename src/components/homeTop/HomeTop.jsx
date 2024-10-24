@@ -8,27 +8,31 @@ function HomeTop (){
     background: transparent;
     display: flex;
     flex-direction: column;
+    gap: 70px;
 `
     const Top = styled.div`
     display:flex;
     margin: auto;
-    height: 50vh;
     width: 90vw;
     padding-top: 70px;
     span h1{
         margin-bottom: 20px;
     }
     span p{
-        text-align: justify;
-        text-justify: inter-word;
+        // text-align: justify;
+        // text-justify: inter-word;
     }
 `
     const Barre = styled.div`
     background : ${colors.coleurMain};
-    width:52px;
+    width: 250px;
     height:148px;
     border-radius:6px;
     margin-right:30px;
+    display: none;
+    @media (min-width: 768px) {
+    display: block;
+  }
 `
 
     const ButtonLog = styled.a`
