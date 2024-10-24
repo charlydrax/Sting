@@ -63,6 +63,9 @@ const ContainerGauche = styled.div`
 
     }
 `
+const ImgStyle = styled.img`
+    width: 300px;
+`
 
 
 
@@ -91,7 +94,7 @@ function InfoJeux({idpage}){
                     </ContainerDroite>
                     <ContainerGauche>
 
-                        <img src={infoGame[id].src} alt="" />
+                        <ImgStyle src={infoGame[id].src} alt="" />
                         <a href="#">
                             <button>Play</button>
                         </a>
